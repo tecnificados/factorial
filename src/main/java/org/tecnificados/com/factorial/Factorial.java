@@ -44,6 +44,7 @@ public class Factorial {
 
 		try
 		{
+			//Uncomment to bug
 			//int a=23/0;
 			if (integerF==null)
 				return integerF;
