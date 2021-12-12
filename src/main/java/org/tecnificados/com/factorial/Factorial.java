@@ -44,7 +44,7 @@ public class Factorial {
 
 		try
 		{
-			int a=23/0;
+			//int a=23/0;
 			if (integerF==null)
 				return integerF;
 			else if (integerF.equals(BigInteger.ZERO))
