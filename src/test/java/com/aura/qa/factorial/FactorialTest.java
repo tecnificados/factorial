@@ -1,10 +1,11 @@
-package tecnificados.com.factorial;
+package com.aura.qa.factorial;
 
 import java.math.BigInteger;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tecnificados.com.factorial.Factorial;
+
+import com.aura.qa.Factorial;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

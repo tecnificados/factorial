@@ -1,4 +1,4 @@
-package org.tecnificados.com.factorial;
+package com.aura.qa;
 
 import java.math.BigInteger;
 import org.slf4j.Logger;
@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 /**
 * Factorial used to generate a factorial of an integer.
 *
-* @author Juan Carlos Ballesteros Hermida - Tecnificados
+* @author Juan Carlos Ballesteros Hermida - QALovers
 */
 public class Factorial {
 	
