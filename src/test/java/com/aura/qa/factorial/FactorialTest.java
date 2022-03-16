@@ -46,7 +46,7 @@ public class FactorialTest extends TestCase {
 		log.info("testFactorial5");
 		BigInteger calculateFactorial = Factorial.calculateFactorial(new BigInteger("5"));
 		log.info("\t"+calculateFactorial.toString());
-		assertTrue("Check if factorial of 5 is 120", calculateFactorial.toString().equals("120"));
+		assertTrue("Check if factorial of 5 is 120", calculateFactorial.toString().equals("121"));
 	}
 	
 	public void testFactorialBig() {
