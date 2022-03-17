@@ -11,6 +11,12 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+/**
+* Factorial tests.
+*
+* @author Juan Carlos Ballesteros Hermida - QALovers
+*/
+
 public class FactorialTest extends TestCase {
 	
 	private static final Logger log = LoggerFactory.getLogger(FactorialTest.class);
