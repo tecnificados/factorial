@@ -36,6 +36,7 @@ public class FactorialTest extends TestCase {
 		return new TestSuite(FactorialTest.class);
 	}
 
+	
 	public void testFactorialZero() {
 		log.info("testFactorialZero");
 		BigInteger calculateFactorial = Factorial.calculateFactorial(BigInteger.ZERO);
