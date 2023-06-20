@@ -1,14 +1,21 @@
-package tecnificados.com.factorial;
+package com.aura.qa.factorial;
 
 import java.math.BigInteger;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tecnificados.com.factorial.Factorial;
+
+import com.aura.qa.Factorial;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+
+/**
+* Factorial tests.
+*
+* @author Juan Carlos Ballesteros Hermida - QALovers
+*/
 
 public class FactorialTest extends TestCase {
 	
@@ -29,6 +36,7 @@ public class FactorialTest extends TestCase {
 		return new TestSuite(FactorialTest.class);
 	}
 
+	
 	public void testFactorialZero() {
 		log.info("testFactorialZero");
 		BigInteger calculateFactorial = Factorial.calculateFactorial(BigInteger.ZERO);
