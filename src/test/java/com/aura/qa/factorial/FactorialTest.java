@@ -62,4 +62,7 @@ public class FactorialTest extends TestCase {
 		log.info("\tIs null: "+(calculateFactorial==null));
 		assertTrue("Check if factorial of a big number is null", calculateFactorial==null);
 	}
+	
+	
+	//
 }
